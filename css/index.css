@@ -106,11 +106,31 @@
     transition: opacity 0.5s ease-in-out;
 }
 
+
+@media screen and (max-width: 414px) {
+    .section-app > .wel-come > h1 {
+        font-size: 50px !important;
+    
+    }
+    .section-app> .wel-come> p{
+        font-size: 16px !important;
+        z-index: 10;
+    }
+    .section-app>img{
+        width: 100% !important;
+    }
+    .btn-get{
+        left: calc(100% / 4) !important;
+        bottom: 10% !important;
+    }
+}
+
 @media screen and (max-width: 1164px) {
     .btn-get{
         left: 40%;
         bottom: 5%;
     }
+    
 }
 
 @media screen and (max-width: 1174px) {
@@ -125,5 +145,4 @@
         flex-direction: column;
     }
 }
-
 
