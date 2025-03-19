@@ -1,4 +1,6 @@
-console.log("HELLO");
+// app.js
+import './js/typingText.js';
+
 
 const buttonShow = document.getElementById("password-btn");
 const password = document.getElementById("password");
